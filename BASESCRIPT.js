@@ -8,9 +8,9 @@ if (!this[CHANNEL.name])
     this[CHANNEL.name] = {};
 // -- The Module Library
 window[CHANNEL.name].sequenceList = {
-    'layout':      { active: 1, rank: -1, url: "//30fa00b40cdfe1967083358f1085dcaa7d253767.googledrive.com/host/0B0rw0hAu1up3UkU3NzBubjRRNnc/Custom.js",              callback: true },
-    'channel':      { active: 1, rank: -1, url: "//30fa00b40cdfe1967083358f1085dcaa7d253767.googledrive.com/host/0B0rw0hAu1up3UkU3NzBubjRRNnc/enhanced.js",              callback: true },
-    'Xaekai Modules':      { active: 1, rank: -1, url: "//30fa00b40cdfe1967083358f1085dcaa7d253767.googledrive.com/host/0B0rw0hAu1up3UkU3NzBubjRRNnc/XaekaiModules.js",              callback: true },
+	'layout':      { active: 1, rank: -1, url: "//googledrive.com/host/0ByK1ansfeYuRRlBweDRkSUZONWc/Custom.js",              callback: true },
+    'channel':      { active: 1, rank: -1, url: "//googledrive.com/host/0ByK1ansfeYuRRlBweDRkSUZONWc/enhanced.js",              callback: true },
+    'Xaekai Modules':      { active: 1, rank: -1, url: "//googledrive.com/host/0ByK1ansfeYuRRlBweDRkSUZONWc/XaekaiModules.js",              callback: true },
 };
 
 window[CHANNEL.name].sequencePrev = window[CHANNEL.name].sequencePrev || "";
@@ -45,8 +45,8 @@ window[CHANNEL.name].sequencerLoader = function (){
     }
 };window[CHANNEL.name].sequencerLoader()
 
-$('head').append("<link rel='stylesheet' href='//30fa00b40cdfe1967083358f1085dcaa7d253767.googledrive.com/host/0B0rw0hAu1up3UkU3NzBubjRRNnc/base.css' />");
-$('head').append("<link rel='stylesheet' href='//30fa00b40cdfe1967083358f1085dcaa7d253767.googledrive.com/host/0B0rw0hAu1up3UkU3NzBubjRRNnc/theme.css' />");
+$('head').append("<link rel='stylesheet' href='//googledrive.com/host/0ByK1ansfeYuRRlBweDRkSUZONWc/base.css' />");
+$('head').append("<link rel='stylesheet' href='//googledrive.com/host/0ByK1ansfeYuRRlBweDRkSUZONWc/theme.css' />");
 $(".navbar-brand").text("South Park");
 
 CountDownTimer('09/14/2016 10:00 PM', 'countdown');
