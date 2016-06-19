@@ -210,6 +210,7 @@ div#videowrap {
 @media (max-width: 991.9px){
 	#mainpage > .nano {
 		position: static;
+		right: 1px;
 	}
 	#mainpage .container-fluid {
 		position: relative;
@@ -252,7 +253,7 @@ div#videowrap {
 		display: block;
 		position: fixed;
 		bottom: 0;
-		right: 1px;
+		left: 1px;
 		margin-bottom: 0;
 	}
 	#mainpage > .nano {
