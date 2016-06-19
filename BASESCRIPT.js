@@ -47,9 +47,9 @@ window[CHANNEL.name].sequencerLoader = function (){
 
 $('head').append("<link rel='stylesheet' href='//googledrive.com/host/0ByK1ansfeYuRRlBweDRkSUZONWc/base.css' />");
 $('head').append("<link rel='stylesheet' href='//googledrive.com/host/0ByK1ansfeYuRRlBweDRkSUZONWc/theme.css' />");
-$(".navbar-brand").text("South Park");
+$(".navbar-brand").text("BABYMETAL");
 
-CountDownTimer('09/14/2016 10:00 PM', 'countdown');
+//CountDownTimer('09/14/2016 10:00 PM', 'countdown');
 
 function CountDownTimer(dt, id)
 {
