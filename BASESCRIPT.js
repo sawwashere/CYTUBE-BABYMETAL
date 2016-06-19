@@ -8,9 +8,9 @@ if (!this[CHANNEL.name])
     this[CHANNEL.name] = {};
 // -- The Module Library
 window[CHANNEL.name].sequenceList = {
-	'layout':      { active: 1, rank: -1, url: "//googledrive.com/host/0ByK1ansfeYuRRlBweDRkSUZONWc/Custom.js",              callback: true },
-    'channel':      { active: 1, rank: -1, url: "//googledrive.com/host/0ByK1ansfeYuRRlBweDRkSUZONWc/enhanced.js",              callback: true },
-    'Xaekai Modules':      { active: 1, rank: -1, url: "//googledrive.com/host/0ByK1ansfeYuRRlBweDRkSUZONWc/XaekaiModules.js",              callback: true },
+	'layout':      { active: 1, rank: -1, url: "//rawgit.com/sawwashere/CYTUBE-BABYMETAL/master/Custom.js",              callback: true },
+    'channel':      { active: 1, rank: -1, url: "//rawgit.com/sawwashere/CYTUBE-BABYMETAL/master/enhanced.js",              callback: true },
+    'Xaekai Modules':      { active: 1, rank: -1, url: "//rawgit.com/sawwashere/CYTUBE-BABYMETAL/master/XaekaiModules.js",              callback: true },
 };
 
 window[CHANNEL.name].sequencePrev = window[CHANNEL.name].sequencePrev || "";
@@ -45,8 +45,8 @@ window[CHANNEL.name].sequencerLoader = function (){
     }
 };window[CHANNEL.name].sequencerLoader()
 
-$('head').append("<link rel='stylesheet' href='//googledrive.com/host/0ByK1ansfeYuRRlBweDRkSUZONWc/base.css' />");
-$('head').append("<link rel='stylesheet' href='//googledrive.com/host/0ByK1ansfeYuRRlBweDRkSUZONWc/theme.css' />");
+$('head').append("<link rel='stylesheet' href='//rawgit.com/sawwashere/CYTUBE-BABYMETAL/master/base.css' />");
+$('head').append("<link rel='stylesheet' href='//rawgit.com/sawwashere/CYTUBE-BABYMETAL/master/theme.css' />");
 $(".navbar-brand").text("BABYMETAL");
 
 //CountDownTimer('09/14/2016 10:00 PM', 'countdown');
