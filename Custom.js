@@ -290,7 +290,7 @@ var updateScrollHandles = function() {
 	$("#mHandle-left").attr("style", "transform: translate(" + (0 - $("#mHandle-left").width() - scrollbar.width() - 1) + "px, " + (scrollbarOffset + $("#mHandle-left").height()/2) + "px);");
 	$("#mHandle-right").attr("style", "transform: translate(-1px, "+ (scrollbarOffset + $("#mHandle-right").height()/2) + "px);");
 	$("#mHandle-mid").attr("style", "transform: translate(" + (0 - scrollbar.width() - 1) + "px, " + (scrollbarOffset + $("#mHandle-mid").height()/2) + "px);");
-	$(".mHandle").css("left", $("#splitRatio").attr("split") + "%");
+	$(".mHandle").css("right", $("#splitRatio").attr("split") + "%");
 }
 
 $("#mainpage > .nano .nano-pane").hover(function(eventData) {
