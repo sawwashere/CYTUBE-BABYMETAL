@@ -8,14 +8,14 @@ $("#main").after(
 '<p class="fa fa-angle-right"></p>' +
 '</div>' +
 '<div class="scroll-images scrollable-x">' +
-'<a href="https://cytu.be/r/animatedshows"><img src="//i.imgur.com/WeaQe7R.png" class="kek" /></a>' +
-'<a href="https://cytu.be/r/billcartoon"><img src="//i.imgur.com/BdrUNQZ.png" class="kek" /></a>' +
-'<a href="https://cytu.be/r/southparkhd"><img src="//i.imgur.com/C47MQA3.png" class="kek" /></a>' +
-'<a href="https://cytu.be/r/simpsons"><img src="//i.imgur.com/DC5EYIe.png" class="kek" /></a>' +
-'<a href="https://cytu.be/r/billtube"><img src="//i.imgur.com/qx2yGcQ.png" class="kek" /></a>' +
-'<a href="https://cytu.be/r/CopsTube"><img src="//i.imgur.com/vDJV3Of.png" class="kek" /></a>' +
-'<a href="https://cytu.be/r/spookyshows"><img src="http://i.imgur.com/2LB9834.png" class="kek" /></a>' +
-'<a href="https://cytu.be/r/animatedshows2"><img src="http://i.imgur.com/yEn9W6E.png" class="kek" /></a>' +
+'<a href="https://cytu.be/r/SakuraGakuin"><img src="//i.imgur.com/BAtXGNU.jpg" class="kek" /></a>' +
+'<a href="https://cytu.be/r/Perfume"><img src="//i.imgur.com/YOS52BW.png" class="kek" /></a>' +
+'<a href="https://cytu.be/r/X-Japan"><img src="//i.imgur.com/L2SxqcD.png" class="kek" /></a>' +
+'<a href="https://www.youtube.com/user/BABYMETALofficial"><img src="//i.imgur.com/vldmy2d.png" class="kek" /></a>' +
+'<a href="https://BABYMETAL.com"><img src="//i.imgur.com/RilRGOR.png" class="kek" /></a>' +
+'<a href="https://twitter.com/BABYMETAL_JAPAN"><img src="//i.imgur.com/hJiWzS7.png" class="kek" /></a>' +
+'<a href="http://taima.tv/r/BABYMETAL"><img src="//i.imgur.com/pS0lJ9W.png" class="kek" /></a>' +
+'<a href="https://reddit.com/r/BABYMETAL"><img src="//i.imgur.com/YObDgQC.png" class="kek" /></a>' +
 '</div></div></div>');
 // The HorizontalScroller Class accepts a jQuery object as its only argument
 // The argument is the parent container of the scrolling element
