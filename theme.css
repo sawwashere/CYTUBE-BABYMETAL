@@ -871,3 +871,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0050101', e
 .vjs-volume-menu-button {
     bottom: 20px;
 }
+#pmbar {
+    min-width: 75%;
+    left: 25%;
+}
