@@ -36,9 +36,9 @@ $('#footer').children('.container').append('<p class="text-muted credit">Copyrig
 //chat elements
 $("#mainpage").prepend($("#chatwrap"));//move chat element outside left container
 //$("#userlist").prepend($("#chatheader"));//move chat header(user toggles) to userlist
-$("#userlist").prepend("<div id='connected'></div>");//create div to contain user count
-$("#connected").append($("#usercount"));//move user count into previously created div
-$("#connected").append( "<span id='connectedText'>&nbsp Logged in Viewers</span>" );//add "Connected" after user count
+//$("#userlist").prepend("<div id='connected'></div>");//create div to contain user count
+//$("#connected").append($("#usercount"));//move user count into previously created div
+//$("#connected").append( "<span id='connectedText'>&nbsp Logged in Viewers</span>" );//add "Connected" after user count
 //$("#chatwrap").append($("#userlisttoggle"));//move user count to chat wrap element
 $("#userlisttoggle").after($("#emotelistbtn"));
 //below video
