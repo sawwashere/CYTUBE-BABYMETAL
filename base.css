@@ -884,7 +884,6 @@ img.kek:hover {
   -webkit-transition: all 100ms;
   transition: all 100ms;
   position: relative;
-  opacity:0.85;
 }
 
 @media only screen and (max-width: 960px) {
