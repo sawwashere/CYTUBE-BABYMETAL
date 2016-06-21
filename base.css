@@ -17,7 +17,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: rgb(238,238,238);
     background-color: rgb(28,31,37);
-    text-align: justify;
 }
 .btn-group-xs>.btn, .btn-xs {
     padding: 6px 20px;
