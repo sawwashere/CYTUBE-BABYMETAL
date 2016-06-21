@@ -61,7 +61,7 @@ $("#fullscreenbtn").addClass("fa fa-arrows-alt");
 $("#fullscreenbtn").removeClass("btn btn-sm");
 $("#fullscreenbtn").addClass("ch");
 $("#emotelistbtn").after($("#fullscreenbtn"));
-$("#fullscreenbtn").append("<button id='movechat' title='Change Chat Side' class='btn-default fa fa-arrows-h ch'></button>");
+$("#fullscreenbtn").after("<button id='movechat' title='Change Chat Side' class='btn-default fa fa-arrows-h ch'></button>");
 //$("#voteskip").detach();
 //$("#videoinfohead").append($("#voteskip"));
 $("#morebtn").after($("#videocontrols"));
