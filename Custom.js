@@ -86,7 +86,6 @@ $("#chatline").attr("placeholder","Type here to send a message");
 
 //$('#pollwrap').detach().insertBefore($('#scroll-feature'));
 $("#motdwrap").append($(".visible-lg"));
-$("#addedbyTEXT").after($("#usercount"));
 $("#morebtn").after("<ul class='dropdown-menu'><li id='mediarefreshli'></li><li><button></button></li><li id='modli'></li><li><button></button></li></ul>");
 $("#modli").append($("#modflair"));
 $("#headbottom").append($("#mediarefresh"));
