@@ -271,11 +271,13 @@ div#videowrap {
 		overflow-x: hidden;
 		height: calc(100% - 50px);
 		padding: 0 10px 0 9px !important;
-		right: 1px;
 	}
 	#mainpage > .nano {
 		position: fixed;
 
+	}
+	#maincontain {
+		right: 1px;
 	}
 	#footer .container {
 		width: 100%;
