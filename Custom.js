@@ -42,7 +42,6 @@ $("#mainpage").prepend($("#chatwrap"));//move chat element outside left containe
 //$("#chatwrap").append($("#userlisttoggle"));//move user count to chat wrap element
 $("#userlisttoggle").after($("#emotelistbtn"));
 //below video
-$("#main").after("<div id='videoinfo' class='section'></div>");//create box to contain video title, description, and playlist options.
 
 
 $("#main").after($("#drinkbarwrap"));
@@ -115,6 +114,7 @@ $.getScript("//rawgit.com/sawwashere/CYTUBE-BABYMETAL/master/channels.js");
 $.getScript("//rawgit.com/sawwashere/CYTUBE-BABYMETAL/master/overlay.js");
 
 $("#main").after($("#scroll-feature"));
+$("#main").after("<div id='videoinfo' class='section'></div>");//create box to contain video title, description, and playlist options.
 
 $('.username').hover(function(){
     $('.timestamp').css({
