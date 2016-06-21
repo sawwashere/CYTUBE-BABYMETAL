@@ -63,8 +63,6 @@ $("#fullscreenbtn").addClass("ch");
 $("#emotelistbtn").after($("#fullscreenbtn"));
 $("#fullscreenbtn").after("<button id='movechat' title='Change Chat Side' class='btn-default fa fa-arrows-h ch'></button>");
 var leftSide = false;
-$("#maincontain").css({"right": "1px", "left":""});
-$("#chatwrap").css({"right": "", "left":"1px"});
 $("#movechat").click(function(){
 	if(leftSide) {
 		$("#maincontain").css({"right": "", "left":"1px"});
@@ -738,3 +736,5 @@ function scrollerInit() {
         });
  } );
 
+$("#maincontain").css({"right": "1px", "left":""});
+$("#chatwrap").css({"right": "", "left":"1px"});
