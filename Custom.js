@@ -44,8 +44,7 @@ $("#userlisttoggle").after($("#emotelistbtn"));
 //below video
 $("#main").after($("#drinkbarwrap"));
 $("#main").after($("#motdrow"));
-$("#main").after($("#scroll-feature"));
-$("#scroll-feature").before("<div id='videoinfo' class='section'></div>");//create box to contain video title, description, and playlist options.
+$("#main").after("<div id='videoinfo' class='section'></div>");//create box to contain video title, description, and playlist options.
 
 
 $("#videoinfo").append("<div class='textheader'></div><div id='videoinfohead'><span id='addedbyTEXT'>Queued by <span id='addedby'></span></span><div id='headbottom'><div id='headright'><div id='ss7time' title='--:--'>0:00</div><div id='videolength'></div><div id='progbar'></div></div></div></div><div id='videoopts'></div>");
@@ -92,6 +91,7 @@ $("#modli").append($("#modflair"));
 $("#headbottom").append($("#mediarefresh"));
 $("#mediarefresh").text("Reload Video Player");
 $("#videoinfo").after($("#rightpane"));
+$("#rightpane").before($("#scroll-feature"));
 $("#rightpane-inner").prepend("<div id='mediabuttons'></div>");
 $("#rightpane-inner").addClass("section");
 $("#mediarefresh").addClass("btn btn-sm btn-default OLB");
