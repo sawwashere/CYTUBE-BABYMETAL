@@ -944,9 +944,3 @@ background: none;
     content: 'X';
     font-size: 0em;
 }
-#maincontain {
-	right: 1px;
-}
-#chatwrap {
-	left: 1px;
-}
