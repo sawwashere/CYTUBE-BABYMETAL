@@ -276,9 +276,6 @@ div#videowrap {
 		position: fixed;
 
 	}
-	#maincontain {
-		right: 1px;
-	}
 	#footer .container {
 		width: 100%;
 	}
@@ -948,4 +945,7 @@ background: none;
 .vjs-error .vjs-error-display:before {
     content: 'X';
     font-size: 0em;
+}
+#maincontain {
+	right: 1px;
 }
