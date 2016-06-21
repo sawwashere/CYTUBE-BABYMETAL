@@ -42,9 +42,12 @@ $("#mainpage").prepend($("#chatwrap"));//move chat element outside left containe
 //$("#chatwrap").append($("#userlisttoggle"));//move user count to chat wrap element
 $("#userlisttoggle").after($("#emotelistbtn"));
 //below video
-
-
 $("#main").after($("#drinkbarwrap"));
+$("#main").after($("#motdrow"));
+$("#main").after($("#scroll-feature"));
+$("#main").after("<div id='videoinfo' class='section'></div>");//create box to contain video title, description, and playlist options.
+
+
 $("#videoinfo").append("<div class='textheader'></div><div id='videoinfohead'><span id='addedbyTEXT'>Queued by <span id='addedby'></span></span><div id='headbottom'><div id='headright'><div id='ss7time' title='--:--'>0:00</div><div id='videolength'></div><div id='progbar'></div></div></div></div><div id='videoopts'></div>");
 $(".navbar-header").after($("#currenttitle")); //move video title below video player
 $("#headbottom").append("<button id='addmedia' title='Add Media' class='headbtn headbtnleft'></button>");
@@ -82,7 +85,6 @@ $("#videocontrols").removeClass("pull-right");
 $("#chatline").attr("placeholder","Type here to send a message");
 
 //$('#pollwrap').detach().insertBefore($('#scroll-feature'));
-$("#main").after($("#motdrow"));
 $("#motdwrap").append($(".visible-lg"));
 $("#addedbyTEXT").after($("#usercount"));
 $("#morebtn").after("<ul class='dropdown-menu'><li id='mediarefreshli'></li><li><button></button></li><li id='modli'></li><li><button></button></li></ul>");
@@ -113,8 +115,6 @@ $("#pldropdown").before($("#qlockbtn"));
 $.getScript("//rawgit.com/sawwashere/CYTUBE-BABYMETAL/master/channels.js");
 $.getScript("//rawgit.com/sawwashere/CYTUBE-BABYMETAL/master/overlay.js");
 
-$("#main").after($("#scroll-feature"));
-$("#main").after("<div id='videoinfo' class='section'></div>");//create box to contain video title, description, and playlist options.
 
 $('.username').hover(function(){
     $('.timestamp').css({
