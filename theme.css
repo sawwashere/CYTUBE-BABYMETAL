@@ -284,7 +284,7 @@ p#currenttitle {
     display: block;
     padding: 12.8px 0;
     padding: .8rem 0;
-    width: 33%;
+    width: 25%;
     border: 0;
     outline: 0;
     cursor: pointer;
@@ -873,4 +873,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0050101', e
 #pmbar {
     min-width: 75%;
     left: 25%;
+}
+.ch {
+    width:25%;
 }
