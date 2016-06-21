@@ -91,7 +91,7 @@ $("#modli").append($("#modflair"));
 $("#headbottom").append($("#mediarefresh"));
 $("#mediarefresh").text("Reload Video Player");
 $("#videoinfo").after($("#rightpane"));
-$("#videoinfo").after($("#scroll-feature"));
+$("#rightpane").before($("#scroll-feature"));
 $("#rightpane-inner").prepend("<div id='mediabuttons'></div>");
 $("#rightpane-inner").addClass("section");
 $("#mediarefresh").addClass("btn btn-sm btn-default OLB");
