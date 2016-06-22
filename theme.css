@@ -543,7 +543,7 @@ img.chat-avatar.chat-avatar_small:hover:after {
 }
 .channel-emote {
     max-height: 70px;
-    max-width: 320px;
+    max-width: 100%;
     display: inline;
 }
 strong.username {
