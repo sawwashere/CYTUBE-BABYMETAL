@@ -63,7 +63,7 @@ $("#fullscreenbtn").removeClass("btn btn-sm");
 $("#fullscreenbtn").addClass("ch");
 $("#emotelistbtn").after($("#fullscreenbtn"));
 $("#fullscreenbtn").after("<button id='movechat' title='Change Chat Side' class='btn-default fa fa-arrows-h ch'></button>");
-var leftSide = false;
+var leftSide = true;
 $("#movechat").click(function(){
 	if(leftSide) {
 		$("#maincontain").css({"right": "", "left":"1px"});
