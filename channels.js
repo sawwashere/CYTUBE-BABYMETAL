@@ -1,4 +1,4 @@
-$("#rightpane").after(
+$("#leftpane").after(
 '<div id="scroll-feature" class="horiz-scroll">' +
 '<div class="scroller">' +
 '<div class="left-scroll invisible">' +
