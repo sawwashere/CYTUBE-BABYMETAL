@@ -90,8 +90,8 @@ $("#morebtn").after("<ul class='dropdown-menu'><li id='mediarefreshli'></li><li>
 $("#modli").append($("#modflair"));
 $("#headbottom").append($("#mediarefresh"));
 $("#mediarefresh").text("Reload Video Player");
-$("#videoinfo").after($("#leftpane"));
-$("#leftpane").after($("#rightpane"));
+$("#videoinfo").after($("#rightpane"));
+$("#rightpane").after($("#leftpane"));
 $("#rightpane-inner").prepend("<div id='mediabuttons'></div>");
 $("#rightpane-inner").addClass("section");
 $("#mediarefresh").addClass("btn btn-sm btn-default OLB");
