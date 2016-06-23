@@ -738,3 +738,8 @@ function scrollerInit() {
 
 $("#maincontain").css({"right": "1px", "left":""});
 $("#chatwrap").css({"right": "", "left":"1px"});
+Callbacks.usercount = function(e) {
+    CHANNEL.usercount = e;
+    var t = e + " connected kitsune";
+    $("#usercount").text(t)
+}
