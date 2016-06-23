@@ -311,12 +311,7 @@ p#currenttitle {
 /* Below Video */
 #mainpage .btn:focus {outline: none;}
 	p#currenttitle, p.sectionheader {
-		color: hsl(0, 0%, 63%);
-	text-shadow: 0 -3px 0 #333,
-    0 6px 8px rgba(0,0,0,.4),
-    0 9px 10px rgba(0,0,0,.15),
-    0 30px 10px rgba(0,0,0,.18),
-    0 15px 10px rgba(0,0,0,.21);
+		color: #fff;
 	}
 	.section, .well, #controlsrow {
     padding: 2rem;
