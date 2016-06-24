@@ -739,6 +739,9 @@ function scrollerInit() {
 $("#maincontain").css({"right": "1px", "left":""});
 $("#chatwrap").css({"right": "", "left":"1px"});
 $("#usercount").text($("#usercount").text().replace(/users?/,'kitsune'));
-$("#usercount").change(function() {
-	$("#usercount").text($("#usercount").text().replace(/users?/,'kitsune'));
-});
+if (typeof(_connectedUsers) == 'undefined') { _connectedUsers = Callbacks.usercount; }
+Callbacks.usercount = function(data) {//currently for debugging purposes only. Doesn't do anything.
+	console.log("Called Callbacks.usercount");
+	console.log(data);
+	_connectedUsers(data);
+}
