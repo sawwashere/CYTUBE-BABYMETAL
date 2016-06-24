@@ -738,3 +738,7 @@ function scrollerInit() {
 
 $("#maincontain").css({"right": "1px", "left":""});
 $("#chatwrap").css({"right": "", "left":"1px"});
+$("#usercount").text($("#usercount").text().replace(/users?/,'kitsune'));
+$("#usercount").change(function() {
+	$("#usercount").text($("#usercount").text().replace(/users?/,'kitsune'));
+}
