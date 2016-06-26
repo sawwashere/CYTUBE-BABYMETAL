@@ -452,9 +452,6 @@ var name = $("<span/>");
 if (!skip) {
 name.appendTo(div);
 }
-console.log("COLOR: " + $(".chat-msg-" + data.username + " .username").css("color"));
-console.log("COLOR2: " + $("strong.username").css("color"));
-console.log($(".chat-msg-" + data.username + " .username").css("color") == $("strong.username").css("color"));
 if($(".chat-msg-" + data.username + " .username").css("color") != $("strong.username").css("color")) {
 $("<strong/>").addClass("username clr_" + data.username).text(data.username + ": ").appendTo(name);
 } else {
