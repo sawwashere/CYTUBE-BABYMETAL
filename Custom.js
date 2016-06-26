@@ -452,7 +452,7 @@ var name = $("<span/>");
 if (!skip) {
 name.appendTo(div);
 }
-if($((".chat-msg-" + username + " .username")).css("color")) {
+if($(".chat-msg-" + data.username + " .username").css("color")) {
 $("<strong/>").addClass("username clr_" + data.username).text(data.username + ": ").appendTo(name);
 } else {
 	$("<strong/>").addClass("username clr_" + data.username).text(data.username + ": ").css("color", stringToColour(data.username)).appendTo(name);
