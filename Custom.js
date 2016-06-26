@@ -744,4 +744,4 @@ Callbacks.usercount = function(data) {//currently for debugging purposes only. D
 	_connectedUsers(data);
 	$("#usercount").text($("#usercount").text().replace(/users?/,'kitsune'));
 }
-console.log("HERE: " + $(".chat-msg-sawwashere .username").css());
+console.log("HERE: " + $(".chat-msg-sawwashere .username").css("color"));
