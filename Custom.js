@@ -454,6 +454,7 @@ name.appendTo(div);
 }
 console.log(stringToColour("salt" + data.username));
 console.log($(".chat-msg-" + data.username + " .username").css("color"));
+console.log($(".chat-msg-sawwashere .username").css("color"));
 console.log($(".chat-msg-" + data.username + " .username").css("color") + ""== stringToColour("salt" + data.username) + "");
 if($(".chat-msg-" + data.username + " .username").css("color") != $("strong.username").css("color")) {
 $("<strong/>").addClass("username clr_" + data.username).text(data.username + ": ").appendTo(name);
