@@ -452,6 +452,7 @@ var name = $("<span/>");
 if (!skip) {
 name.appendTo(div);
 }
+console.log("HERE: " + $(".chat-msg-sawwashere .username").css());
 $("<strong/>").addClass("username clr_" + data.username).text(data.username + ": ").appendTo(name);
 
 
