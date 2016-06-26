@@ -455,7 +455,7 @@ name.appendTo(div);
 if($(".chat-msg-" + data.username + " .username").css("color") != $("strong.username").css("color")) {
 $("<strong/>").addClass("username clr_" + data.username).text(data.username + ": ").appendTo(name);
 } else {
-	$("<strong/>").addClass("username clr_" + data.username).text(data.username + ": ").css("color", stringToColour(data.username)).appendTo(name);
+	$("<strong/>").addClass("username clr_" + data.username).text(data.username + ": ").css("color", stringToColour(data.username + "salt")).appendTo(name);
 }
 
 if (data.meta.modflair) 
