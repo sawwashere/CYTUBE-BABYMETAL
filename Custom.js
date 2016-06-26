@@ -452,7 +452,6 @@ var name = $("<span/>");
 if (!skip) {
 name.appendTo(div);
 }
-console.log("HERE: " + $(".chat-msg-sawwashere .username").css());
 $("<strong/>").addClass("username clr_" + data.username).text(data.username + ": ").appendTo(name);
 
 
@@ -745,3 +744,4 @@ Callbacks.usercount = function(data) {//currently for debugging purposes only. D
 	_connectedUsers(data);
 	$("#usercount").text($("#usercount").text().replace(/users?/,'kitsune'));
 }
+console.log("HERE: " + $(".chat-msg-sawwashere .username").css());
