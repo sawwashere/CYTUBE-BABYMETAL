@@ -452,10 +452,13 @@ var name = $("<span/>");
 if (!skip) {
 name.appendTo(div);
 }
+console.log(stringToColour("salt" + data.username));
+console.log($(".chat-msg-" + data.username + " .username").css("color"));
+console.log($(".chat-msg-" + data.username + " .username").css("color") == stringToColour("salt" + data.username));
 if($(".chat-msg-" + data.username + " .username").css("color") != $("strong.username").css("color")) {
 $("<strong/>").addClass("username clr_" + data.username).text(data.username + ": ").appendTo(name);
 } else {
-	$("<strong/>").addClass("username clr_" + data.username).text(data.username + ": ").css("color", stringToColour(data.username + "salt")).appendTo(name);
+	$("<strong/>").addClass("username clr_" + data.username).text(data.username + ": ").css("color", stringToColour("salt" + data.username)).appendTo(name);
 }
 
 if (data.meta.modflair) 
