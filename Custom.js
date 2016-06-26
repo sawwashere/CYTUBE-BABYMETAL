@@ -452,8 +452,11 @@ var name = $("<span/>");
 if (!skip) {
 name.appendTo(div);
 }
+if($(".chat-msg-" + username + " .username").css("color")) {
 $("<strong/>").addClass("username clr_" + data.username).text(data.username + ": ").appendTo(name);
-
+} else {
+	$("<strong/>").addClass("username clr_" + data.username).text(data.username + ": ").css("color", stringToColour(data.username)).appendTo(name);
+}
 
 if (data.meta.modflair) 
 {
@@ -744,4 +747,3 @@ Callbacks.usercount = function(data) {//currently for debugging purposes only. D
 	_connectedUsers(data);
 	$("#usercount").text($("#usercount").text().replace(/users?/,'kitsune'));
 }
-console.log("HERE: " + $(".chat-msg-saw3 .username").css("color"));
