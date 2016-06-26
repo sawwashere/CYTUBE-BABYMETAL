@@ -453,6 +453,7 @@ if (!skip) {
 name.appendTo(div);
 }
 console.log("COLOR: " + $(".chat-msg-" + data.username + " .username").css("color"));
+console.log("COLOR: " + $(".chat-msg-" + data.username + " .username").css("color") == rgb(211, 211, 211));
 if($(".chat-msg-" + data.username + " .username").css("color")) {
 $("<strong/>").addClass("username clr_" + data.username).text(data.username + ": ").appendTo(name);
 } else {
