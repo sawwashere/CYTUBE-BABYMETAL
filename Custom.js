@@ -454,7 +454,6 @@ name.appendTo(div);
 }
 $("<div id='testMessage1' style='display: none' class='chat-msg-" + data.username + "'><strong class='username clr_" + data.username + "'></strong></div>").appendTo($("#chatwrap"));
 $("<strong id='testMessage2' style='display: none' class='username'></strong>").appendTo($("#chatwrap"));
-console.log($("#testMessage1 > strong").css("color") != $("#testMessage2").css("color"));
 if($("#testMessage1 > strong").css("color") != $("#testMessage2").css("color")) {
 $("<strong/>").addClass("username clr_" + data.username).text(data.username + ": ").appendTo(name);
 } else {
