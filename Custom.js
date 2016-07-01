@@ -452,13 +452,10 @@ var name = $("<span/>");
 if (!skip) {
 name.appendTo(div);
 }
-console.log(stringToColour("salt" + data.username));
-console.log($(".chat-msg-" + data.username + " .username").css("color"));
-console.log($(".chat-msg-sawwashere .username").css("color"));
-console.log($(".chat-msg-" + data.username + " .username").css("color") + ""== stringToColour("salt" + data.username) + "");
 $("<div id='testMessage1' style='display: none' class='chat-msg-" + data.username + "'><strong class='username clr_" + data.username + "'></strong></div>").appendTo($("#chatwrap"));
 $("<strong id='testMessage2' style='display: none' class='username'></strong>").appendTo($("#chatwrap"));
-if($("#testMessage1").css("color") != $("#testMessage2").css("color")) {
+console.log($("#testMessage1 > strong").css("color") != $("#testMessage2").css("color"));
+if($("#testMessage1 > strong").css("color") != $("#testMessage2").css("color")) {
 $("<strong/>").addClass("username clr_" + data.username).text(data.username + ": ").appendTo(name);
 } else {
 	$("<strong/>").addClass("username clr_" + data.username).text(data.username + ": ").css("color", stringToColour("salt" + data.username)).appendTo(name);
