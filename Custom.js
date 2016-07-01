@@ -460,7 +460,7 @@ $("<strong/>").addClass("username clr_" + data.username).text(data.username + ":
 } else {
 	$("<strong/>").addClass("username clr_" + data.username).text(data.username + ": ").css("color", stringToColour("salt" + data.username)).appendTo(name);
 }
-$("#testMessage*").remove();
+$("#testMessage1,#testMessage2").remove();
 
 if (data.meta.modflair) 
 {
