@@ -115,19 +115,6 @@ $("#pldropdown").before($("#qlockbtn"));
 $.getScript("//rawgit.com/sawwashere/CYTUBE-BABYMETAL/master/channels.js");
 $.getScript("//rawgit.com/sawwashere/CYTUBE-BABYMETAL/master/overlay.js");
 
-
-$('.username').hover(function(){
-    $('.timestamp').css({
-        'opacity':'1',
-        'display':'block',
-    });
-},function(){
-    $('.timestamp').css({
-        'opacity':'0',
-        'display':'none',
-    });
-});
-
 $('#queuecontainer').hover(function(){
     $('#pllength').css({
         'opacity':'0.9',
@@ -439,15 +426,6 @@ div.addClass("drink");
 data.meta.addClass = "";
 }
  
-if (USEROPTS.show_timestamps) {
-var time = $("<span/>").addClass("timestamp").appendTo(div);
-var timestamp = new Date(data.time).toTimeString().split(" ")[0];
-time.text("["+timestamp+"] ");
-if (data.meta.addClass && data.meta.addClassToNameAndTimestamp) {
-time.addClass(data.meta.addClass);
-}
-}
- 
 var name = $("<span/>");
 if (!skip) {
 name.appendTo(div);
@@ -460,6 +438,15 @@ $("<strong/>").addClass("username clr_" + data.username).text(data.username + ":
 	$("<strong/>").addClass("username clr_" + data.username).text(data.username + ": ").css("color", stringToColour("salt" + data.username)).appendTo(name);
 }
 $("#testMessage1,#testMessage2").remove();
+ 
+if (USEROPTS.show_timestamps) {
+var time = $("<span/>").addClass("timestamp").before(name);
+var timestamp = new Date(data.time).toTimeString().split(" ")[0];
+time.text("["+timestamp+"] ");
+if (data.meta.addClass && data.meta.addClassToNameAndTimestamp) {
+time.addClass(data.meta.addClass);
+}
+}
 
 if (data.meta.modflair) 
 {
