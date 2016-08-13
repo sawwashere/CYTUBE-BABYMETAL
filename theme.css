@@ -142,7 +142,6 @@ p#currenttitle {
     width: auto;
     float: left;
     padding: 14px;
-    font-family: 'Montserrat', sans-serif;
 }
 form#logoutform {
     font-size: 1rem;
