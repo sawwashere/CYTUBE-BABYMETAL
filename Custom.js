@@ -411,8 +411,10 @@ addClassToNameAndTimestamp: data.msgclass
 }
 var skip = data.username === last.name;
 var skipTimestamp = skip ? data.time - last.time < 15000 : false;
-if(data.meta.addClass === "server-whisper")
-skip = true;
+if(data.meta.addClass === "server-whisper") {
+	skip = true;
+	skipTimestamp = false;
+}
 if(data.msg.match(/^\s*<strong>\w+\s*:\s*<\/strong>\s*/))
 skip = false;
 if (data.meta.forceShowName)
