@@ -410,6 +410,7 @@ addClassToNameAndTimestamp: data.msgclass
 };
 }
 var skip = data.username === last.name;
+var skipTimestamp = skip ? data.time - last.time < 60000 : false;
 if(data.meta.addClass === "server-whisper")
 skip = true;
 if(data.msg.match(/^\s*<strong>\w+\s*:\s*<\/strong>\s*/))
@@ -427,7 +428,7 @@ div.addClass("drink");
 data.meta.addClass = "";
 }
  
-if (USEROPTS.show_timestamps) {
+if (USEROPTS.show_timestamps && !skipTimestamp) {
 var time = $("<span/>").addClass("timestamp").appendTo(div);
 var timestamp = new Date(data.time).toTimeString().split(" ")[0];
 time.text("["+timestamp+"] ");
