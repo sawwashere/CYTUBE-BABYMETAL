@@ -595,7 +595,7 @@ strong.username {
     margin-top: 4px;
     margin-left: 10px;
 }
-.consecutive[class^="chat-msg"] {
+.consecutive[class*="chat-msg"] {
 	margin-left: 70px;
 }
 img.chat-avatar.chat-avatar_big {
