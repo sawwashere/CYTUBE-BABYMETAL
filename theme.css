@@ -269,7 +269,7 @@ p#currenttitle {
     float: left;
     display: block;
     padding: 12.8px 0;
-    padding: .6rem 0;
+    padding: .8rem 0;
     width: 25%;
     border: 0;
     outline: 0;
@@ -597,6 +597,9 @@ strong.username {
 }
 .consecutive[class*="chat-msg"] {
 	margin-left: 70px;
+}
+[class*="chat-msg"] {
+	font-size: 1.2rem;
 }
 img.chat-avatar.chat-avatar_big {
     height: 55px;
