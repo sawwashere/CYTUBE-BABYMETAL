@@ -594,9 +594,6 @@ strong.username {
     margin-top: 4px;
     margin-left: 10px;
 }
-.consecutive[class*="chat-msg"] {
-	margin-left: 70px;
-}
 [class*="chat-msg"] {
 	font-size: 1.4rem;
 }
