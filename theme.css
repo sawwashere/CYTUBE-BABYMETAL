@@ -292,7 +292,7 @@ p#currenttitle {
 		}
 	/* Chat bar */
 	#chatline, #guestlogin>input, #guestlogin>.input-group-addon {
-		font-size: 1.3rem;
+		font-size: 1.4rem;
 	}
 
 /* Below Video */
@@ -599,7 +599,7 @@ strong.username {
 	margin-left: 70px;
 }
 [class*="chat-msg"] {
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 }
 img.chat-avatar.chat-avatar_big {
     height: 55px;
