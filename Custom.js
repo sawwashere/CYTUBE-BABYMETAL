@@ -420,6 +420,7 @@ skip = false;
 data.msg = execEmotes(data.msg);
  
 last.name = data.username;
+last.time = data.time;
 var div = $("<div/>");
 if (data.meta.addClass === "drink") {
 div.addClass("drink");
