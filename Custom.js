@@ -427,6 +427,9 @@ if (data.meta.addClass === "drink") {
 div.addClass("drink");
 data.meta.addClass = "";
 }
+if (skipTimestamp) {
+	div.addClass("consecutive");
+}
  
 if (USEROPTS.show_timestamps && !skipTimestamp) {
 var time = $("<span/>").addClass("timestamp").appendTo(div);
