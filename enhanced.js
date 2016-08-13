@@ -1122,7 +1122,7 @@ window.cytubeEnhanced.addModule('chatAvatars', function (app) {
             if ((window.findUserlistItem(data.username) != null) && (window.findUserlistItem(data.username).data('profile').image != "") && (app.userConfig.get('avatarsMode') != false)) {
                 var $avatar = $("<img>").attr("src", window.findUserlistItem(data.username).data('profile').image)
                     .addClass(avatarCssClasses)
-                    .prependTo(div.find('.username').parent());
+                    .prependTo(div.find('.timestamp').parent());
 
                 if (app.userConfig.get('avatarsMode') == 'big') {
                     div.find('.username').css('display', 'none');
