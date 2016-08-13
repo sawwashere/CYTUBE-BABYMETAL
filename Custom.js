@@ -410,7 +410,7 @@ addClassToNameAndTimestamp: data.msgclass
 };
 }
 var skip = data.username === last.name;
-var skipTimestamp = skip ? data.time - last.time < 60000 : false;
+var skipTimestamp = skip ? data.time - last.time < 15000 : false;
 if(data.meta.addClass === "server-whisper")
 skip = true;
 if(data.msg.match(/^\s*<strong>\w+\s*:\s*<\/strong>\s*/))
