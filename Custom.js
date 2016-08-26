@@ -96,6 +96,12 @@ $("#rightpane-inner").prepend("<div id='mediabuttons'></div>");
 $("#rightpane-inner").addClass("section");
 $("#mediarefresh").addClass("btn btn-sm btn-default OLB");
 $("#voteskip").addClass("btn btn-sm btn-default OLB");
+$("#Notif").after("<button id='mediarefresh2' class='btn btn-sm btn-default OLB' title='Reload the video player'>Reload Video</button>");
+$("#mediarefresh2").click(function() {
+	    PLAYER.mediaType = "",
+	        PLAYER.mediaId = "",
+		    socket.emit("playerReady")
+})
 
 //voteskip
 //$("#headbottom").append($("#voteskip"));
