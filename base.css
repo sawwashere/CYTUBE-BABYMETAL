@@ -419,6 +419,7 @@ div#videowrap {
 		border-radius: 0;
 		background: none;
 		padding: 14px;
+		float: left;
 	}
 
 	/*Header right (Time and progbar)*/
