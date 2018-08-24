@@ -8,14 +8,14 @@ $("#rightpane").after(
 '<p class="fa fa-angle-right"></p>' +
 '</div>' +
 '<div class="scroll-images scrollable-x">' +
-'<a href="https://BABYMETAL.com"><img src="//i.imgur.com/RilRGOR.png" class="kek" /></a>' +
-'<a href="https://twitter.com/BABYMETAL_JAPAN"><img src="//i.imgur.com/hJiWzS7.png" class="kek" /></a>' +
-'<a href="https://www.youtube.com/user/BABYMETALofficial"><img src="//i.imgur.com/vldmy2d.png" class="kek" /></a>' +
-'<a href="https://cytu.be/r/SakuraGakuin"><img src="//i.imgur.com/BAtXGNU.jpg" class="kek" /></a>' +
-'<a href="https://reddit.com/r/BABYMETAL"><img src="//i.imgur.com/YObDgQC.png" class="kek" /></a>' +
-'<a href="https://cytu.be/r/Perfume"><img src="//i.imgur.com/YOS52BW.png" class="kek" /></a>' +
-'<a href="https://cytu.be/r/X-Japan"><img src="//i.imgur.com/L2SxqcD.png" class="kek" /></a>' +
-'<a href="http://taima.tv/r/BABYMETAL"><img src="//i.imgur.com/pS0lJ9W.png" class="kek" /></a>' +
+'<a href="https://babymetal.com/%22%3E<img src="//funkyimg.com/i/2KFSf.png" class="kek" /></a>' +
+'<a href="https://twitter.com/BABYMETAL_JAPAN%22%3E<img src="//funkyimg.com/i/2KFSc.png" class="kek" /></a>' +
+'<a href="https://www.youtube.com/user/BABYMETALofficial%22%3E<img src="//funkyimg.com/i/2KFSg.png" class="kek" /></a>' +
+'<a href="https://cytu.be/r/SakuraGakuin%22%3E<img src="//funkyimg.com/i/2KFSb.png" class="kek" /></a>' +
+'<a href="https://reddit.com/r/BABYMETAL%22%3E<img src="//funkyimg.com/i/2KFSh.png" class="kek" /></a>' +
+'<a href="https://cytu.be/r/Perfume%22%3E<img src="//funkyimg.com/i/2KFSi.png" class="kek" /></a>' +
+'<a href="https://cytu.be/r/X-Japan%22%3E<img src="//funkyimg.com/i/2KFSd.png" class="kek" /></a>' +
+'<a href="http://taima.tv/r/BABYMETAL%22%3E<img src="//funkyimg.com/i/2KFSe.png" class="kek" /></a>' +
 '</div></div></div>');
 // The HorizontalScroller Class accepts a jQuery object as its only argument
 // The argument is the parent container of the scrolling element
